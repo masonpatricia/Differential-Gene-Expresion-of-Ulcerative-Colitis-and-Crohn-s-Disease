@@ -32,19 +32,19 @@ PCA analysis of the entire dataset composed of all three sample types returned a
 
 ![uc_cd_nm_pca](./images/uc_cd_nm_genes.PNG)
 
-![cluster_compare_all](./images/all_kmean.png)(./images/crohns_cluster.jpg)
+![cluster_compare_all](./images/all_kmean.png)![UMAP_all](./images/crohns_cluster.jpg)
 
 ![uc_nm_pca](./images/uc_vs_nm_genes.PNG)
 
-![cluster_compare_uc_nm](./images/kmeans_uc_vs_cd.png)(./images/uc_vs_nm.jpg)
+![cluster_compare_uc_nm](./images/kmeans_uc_vs_nm.png)![UMAP_uc_nm](./images/uc_vs_nm.jpg)
 
 ![cd_nm_pca](./images/cd_vs_nm_genes.PNG)
 
-![cluster_compare_cd_nm](./images/kmeans_cd_vs_cd.png)(./images/cd_vs_nm.jpg)
+![cluster_compare_cd_nm](./images/kmeans_cd_vs_nm.png)![UMAP_cd_nm](./images/cd_vs_nm.jpg)
 
 ![uc_cd_pca](./images/uc_vs_cd_genes.PNG)
 
-![cluster_compare_cd_nm](./images/kmeans_cd_vs_cd.png)(./images/cd_vs_nm.jpg)
+![cluster_compare_cd_nm](./images/kmeans_uc_vs_cd.png)![UMAP_uc_cd](./images/uc_vs_cd.jpg)
 
 
 Three-sample classification was performed by kNN and Random Forest models with and without PCA reduction.  Random Forest was chosen because it also selects a subset of features to train the model. The data were passed through gridsearch for optimal parameters.  Summary tables of each model are below.  Also a summary of the top 10 genes produced with Random Forest compared with Bioconductor.  
