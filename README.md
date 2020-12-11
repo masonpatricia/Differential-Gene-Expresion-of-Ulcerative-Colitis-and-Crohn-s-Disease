@@ -40,7 +40,7 @@ PCA analysis of the entire dataset composed of all three sample types returned a
 
 ![cd_nm_pca](./images/cd_vs_nm_genes.PNG)
 
-![cluster_compare_cd_nm](./images/kmeans_cd_vs_nm.png)![UMAP_cd_nm](./images/cd_vs_nm.jpg)
+![cluster_compare_cd_nm](./images/k_means_cd_vs_nm.png)![UMAP_cd_nm](./images/cd_vs_nm.jpg)
 
 ![uc_cd_pca](./images/uc_vs_cd_genes.PNG)
 
