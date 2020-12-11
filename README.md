@@ -32,7 +32,7 @@ PCA analysis of the entire dataset composed of all three sample types returned a
 
 ![uc_cd_nm_pca](./images/uc_cd_nm_genes.PNG)
 
-![cluster_compare_all](./images/all_kmean.png)![UMAP_all](./images/crohns_cluster.jpg)
+![cluster_compare_all](./images/all_kmeans.png)![UMAP_all](./images/crohns_cluster.jpg)
 
 ![uc_nm_pca](./images/uc_vs_nm_genes.PNG)
 
